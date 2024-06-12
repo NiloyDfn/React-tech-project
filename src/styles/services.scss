@@ -1,2 +1,36 @@
 @import "colors";
 
+.services {
+    .carousel-root {
+      // Customize carousel root styles here
+      margin: 20px auto;
+      max-width: 800px;
+    }
+  
+ 
+  
+    .carousel .slide {
+      // Customize individual slide styles here
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f0f0f0;
+      border-radius: 5px;
+    }
+  
+    .carousel img {
+      // Customize image styles here
+      max-width: 100%;
+      max-height: 600px;
+      border-radius: 5px;
+    }
+  
+    .carousel .legend {
+      // Customize caption styles here
+      font-size: 18px;
+      color: #333;
+      text-align: center;
+      margin-top: 10px;
+    }
+  }
+  

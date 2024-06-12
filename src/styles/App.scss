@@ -1,4 +1,3 @@
-
 *{
     margin : 0;
     padding: 0;
@@ -14,3 +13,11 @@
     height: 100%;
     width:  100%;   
     }
+
+    
+
+@import url("./header.scss"); 
+@import url("./footer.scss");
+@import url("./home.scss");
+@import url("./contact.scss");
+@import url("./services.scss");
