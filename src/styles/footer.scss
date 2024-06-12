@@ -1,0 +1,53 @@
+@import "colors";
+
+footer{
+    // background-color: orange ;
+    // height: 200px;
+    // width: 100%;
+    // color: $dark;
+    // display: grid;
+    // grid-template-columns: 4fr 1fr ;
+    // padding:2rem ;
+    min-height: 10vw;
+    width: 100%;
+    color: white;
+    display: grid;
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    background-image: linear-gradient(90deg, #A100FFFF 0%, #71C4FFFF 100%);
+    grid-template-columns: 4fr 1fr;
+    padding: 2rem;
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h1{
+            font: 700 2rem ;
+            color: white;
+        }
+        p{
+            font: 500 1.2rem;
+        }
+        h5{
+            font : 300 2rem;
+            margin: 1rem 0;
+            text-align: center
+        }
+    div{
+        display: block;
+        flex-direction: column;
+        align-items: center
+       
+    } 
+    .ok{
+        color: white;
+        font: 900 1rem ;
+        text-transform: uppercase;
+        margin-left: 2vw;
+        &:hover{
+            color: $third;
+            transition: all ease .5s;
+        }
+    }   
+    }
+};
