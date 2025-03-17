@@ -6,7 +6,12 @@
       max-width: 800px;
     }
   
- 
+    @media (max-width: 768px) {
+      .carousel-root {
+        margin: 10px auto;
+        max-width: 90%;
+      }
+    }
   
     .carousel .slide {
       display: flex;
@@ -22,11 +27,22 @@
       border-radius: 5px;
     }
   
+    @media (max-width: 768px) {
+      .carousel img {
+        max-height: 300px;
+      }
+    }
+  
     .carousel .legend {
       font-size: 18px;
       color: #333;
       text-align: center;
       margin-top: 10px;
     }
-  }
   
+    @media (max-width: 768px) {
+      .carousel .legend {
+        font-size: 14px;
+      }
+    }
+  }

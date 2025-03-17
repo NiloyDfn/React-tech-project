@@ -61,3 +61,33 @@
     }
     
 }
+
+@media (max-width: 768px) {
+    .contact{
+        height: auto;
+        >main{
+            width: 90%;
+            height: auto;
+            padding: 2rem;
+            border-radius: 20px;
+            >form{
+                margin: 2vw;
+                >div{
+                    width: 100%;
+                    margin: 1rem;
+                    >label{
+                        width: 30%;
+                        margin: 0 .5rem;
+                    }
+                    >input{
+                        width: 70%;
+                    }
+                }
+                button{
+                    margin: 2rem 0;
+                    padding: 1vw 2vw;
+                }
+            }
+        }
+    }
+}
